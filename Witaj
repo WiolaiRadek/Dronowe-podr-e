@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronowe podróże</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4682b4;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #87ceeb;
+        }
+        section {
+            padding: 20px;
+        }
+        .o-nas, .wycieczki, .zdjecia-dronem, .kontakt {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dronowe podróże</h1>
+</header>
+
+<nav>
+    <a href="#o-nas">O nas</a>
+    <a href="#wycieczki">Wycieczki</a>
+    <a href="#zdjecia-dronem">Zdjęcia dronem</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="o-nas" class="o-nas">
+    <h2>O nas</h2>
+    <p>Witaj! Jesteśmy pasjonatami podróży i fotografii dronem. Uwielbiamy odkrywać nowe miejsca i dzielić się naszymi przygodami z innymi.</p>
+</section>
+
+<section id="wycieczki" class="wycieczki">
+    <h2>Wycieczki</h2>
+    <p>Nasze wycieczki prowadzą nas w najpiękniejsze zakątki świata. Od górskich szlaków po piaszczyste plaże, zawsze szukamy kolejnych wspaniałych miejsc do odkrycia.</p>
+</section>
+
+<section id="zdjecia-dronem" class="zdjecia-dronem">
+    <h2>Zdjęcia dronem</h2>
+    <p>Nasze zdjęcia dronem pozwalają uchwycić piękno świata z lotu ptaka. Dzięki nim możemy pokazać wspaniałe krajobrazy i niezwykłe perspektywy.</p>
+</section>
+
+<section id="kontakt" class="kontakt">
+    <h2>Kontakt</h2>
+    <p>Jeśli masz pytania lub chcesz się z nami skontaktować, napisz do nas na adres email: <a href="mailto:kontakt@example.com">kontakt@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Dronowe podróże. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
